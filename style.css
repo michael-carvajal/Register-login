@@ -8,4 +8,54 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: rgb(43, 104, 226);
+}
+
+h2{
+    margin-bottom: 30px;
+}
+
+form{
+    border-radius: 5%;
+    background-color: rgb(244, 240, 235);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+form div{
+    border-bottom: 1px grey solid;
+    margin-bottom: 20px;
+}
+
+
+div input{
+    border: none;
+    background-color: rgb(244, 240, 235);
+}
+
+div input:focus{
+    color: red;
+}
+
+.accept{
+    display: flex;
+    justify-content: flex-start;
+    border: none;
+    text-align: center;
+    font-size: 10px;
+}
+
+.accept label{
+    margin-left: 10px;
+
+}
+
+#submit{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(40, 124, 198);
+    border: 1px blue solid;
+    border-radius: 5%;
 }
